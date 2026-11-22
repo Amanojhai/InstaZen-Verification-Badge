@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "enabled": true,
+  "smartlink_url": "https://uplcm.com/4/10608435",
+  "placements": {
+    "reels": {
+      "enabled": true,
+      "every_n_items": 20
+    },
+    "stories": {
+      "enabled": true,
+      "every_n_items": 5
+    }
+  },
+  "combined_ad_cap": 10,
+  "cooldown_hours": 24,
+  "cooldown_starts": "when_combined_cap_reached",
+  "counter_scope": "per_install",
+  "story_count_unit": "individual_item",
+  "visible_seconds_to_count": 2,
+  "refresh_on": "process_start",
+  "cache_ttl_hours": 24,
+  "fail_closed": true
+}
