@@ -12,7 +12,7 @@
       "every_n_items": 5
     }
   },
-  "combined_ad_cap": 10,
+  "combined_ad_cap": 100,
   "cooldown_hours": 24,
   "cooldown_starts": "when_combined_cap_reached",
   "counter_scope": "per_install",
