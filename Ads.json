@@ -5,7 +5,7 @@
   "placements": {
     "reels": {
       "enabled": true,
-      "every_n_items": 2
+      "every_n_items": 10
     },
     "stories": {
       "enabled": true,
@@ -16,9 +16,18 @@
   "cooldown_hours": 24,
   "cooldown_starts": "when_combined_cap_reached",
   "counter_scope": "per_install",
-  "story_count_unit": "individual_item",
+  "story_count_unit": "account",
   "visible_seconds_to_count": 2,
   "refresh_on": "process_start",
   "cache_ttl_hours": 24,
-  "fail_closed": true
+  "fail_closed": true,
+  "ad_ui": {
+    "close_button_delay_seconds": 3,
+    "close_unlock_seconds": 7,
+    "back_dismiss_enabled": false,
+    "countdown_starts": "first_main_page_ready",
+    "pause_timer_when_not_visible": true,
+    "error_exit_enabled": true,
+    "page_ready_timeout_seconds": 10
+  }
 }
