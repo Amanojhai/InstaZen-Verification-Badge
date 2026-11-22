@@ -1,33 +1,8 @@
 {
-  "schema_version": 2,
   "enabled": true,
+  "reels_between_ads": 2,
   "smartlink_url": "https://uplcm.com/4/10608435",
-  "placements": {
-    "reels": {
-      "enabled": true,
-      "every_n_items": 10
-    },
-    "stories": {
-      "enabled": true,
-      "every_n_items": 5
-    }
-  },
-  "combined_ad_cap": 100,
-  "cooldown_hours": 24,
-  "cooldown_starts": "when_combined_cap_reached",
-  "counter_scope": "per_install",
-  "story_count_unit": "account",
-  "visible_seconds_to_count": 2,
-  "refresh_on": "process_start",
-  "cache_ttl_hours": 24,
-  "fail_closed": true,
-  "ad_ui": {
-    "close_button_delay_seconds": 3,
-    "close_unlock_seconds": 7,
-    "back_dismiss_enabled": false,
-    "countdown_starts": "first_main_page_ready",
-    "pause_timer_when_not_visible": true,
-    "error_exit_enabled": true,
-    "page_ready_timeout_seconds": 10
-  }
+  "scroll_unlock_seconds": 5,
+  "reset_hours": 24,
+  "max_ads_per_window": 2000
 }
