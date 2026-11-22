@@ -5,7 +5,7 @@
   "placements": {
     "reels": {
       "enabled": true,
-      "every_n_items": 20
+      "every_n_items": 2
     },
     "stories": {
       "enabled": true,
